@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Move to Next</title>
+    <link rel="icon" href="https://i.ibb.co/0B2WJXw/icontitle.png" type = "image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+<script>
+    function nextpag(){
+        window.location.href="https://freshzqzr.github.io/PJ_7Series/thankanspage.html";
+    }
+
+    var user = document.getElementById('A').nodeValue
+    console.log("user");
+</script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Prompt', sans-serif;
+            background-color: honeydew;
+        }
+
+        /* style Tab Nav */
+         /* style Tab Nav */
+         .navtab {
+            margin: 0 auto;
+            width:100%;
+            height: 60px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            background: rgb(255, 255, 255);  
+        }
+        .space {
+            flex-grow: 6;
+        }
+        .container1{
+            display: flex;
+            margin-left: 18%;
+            margin-right: 18%;
+        }
+        .buttonmenu{
+            border:none;
+            font-size: 14px;
+            margin-top: 5px;
+            padding: 14px 30px;
+            cursor: pointer;
+            color: white;
+            border-radius: 50px;
+            background-color: #4CAF50;
+        }
+        @media screen and (max-width: 300px){
+            .navtab, .space, .container1, .buttonmenu{
+            width: 100%;}
+        }
+
+        /* End style Tab Nav */
+
+        /* style section1 */
+        .section1 {
+            width: 100%;
+            height: auto;
+            background-image: linear-gradient(to right, rgba(10, 245, 127, 0.74), rgb(253, 255, 118)), url("https://i.ibb.co/c6BFTWZ/picP02.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            opacity: 100%;
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .container2 {
+            height: auto;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            justify-content: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+
+        }
+        /* style section2 */
+        .section2{
+            width: 100%;
+            background-color: white;
+        }
+        .contaniner3{
+            padding: 20px 20% 1% 20%;
+        }
+
+
+        .buttonmenu1{
+            border: none;
+            margin-top: 5px;
+            padding: 2% 2%;
+            cursor: pointer;
+            color: white;
+            border-radius: 50px;
+            background-color: #4CAF50;
+        }
+        .buttonmenu1:hover{
+            border: none;
+            margin-top: 5px;
+            padding: 2% 2%;
+            cursor: pointer;
+            color: white;
+            border-radius: 50px;
+            background-color: #aac7ab;
+        }
+
+        @media screen and (max-width: 700px) {
+        }
+
+
+
+        /* style Footer */
+        .section4{
+            width:100%;
+            height: auto;
+            background-color: #000000;
+            padding-top: 3%;
+            padding-bottom: 3%;
+            color: white;
+        }
+        .container5{
+            height: auto;
+            width:100%;
+            text-align: left;
+            justify-content: center;
+        }
+
+        @media screen and (max-width: 700px){
+            .section4, .container5{
+            width: 100%;
+            height: auto;
+            padding-top: 3%;
+            padding-bottom: 3%;}
+        }
+        /*End style Footer */
+    </style>
+</head>
+
+<body>
+    <!--ส่วนแท็บด้านบน*-->
+    <div class="navtab">
+        <div class="container1">
+            <a href="https://freshzqzr.github.io/PJ_7Series/indexweb.html"><div class="logomovetonext"><img src="https://i.ibb.co/Fqc4Rtj/logomovetonext.png" alt="logomovetonext"
+                class="bar_logo" width="90px" height="50px"></div></a>
+            <div class="space"></div>
+            <div class="butmenu"><a href="https://www.facebook.com/FreshZOfficial"><input type="button" value="Contact Us" class="buttonmenu" style="color: rgb(255, 255, 255);"></div></a>
+        </div>
+        </div>
+
+    <div class="section1">
+        <div class="container2">
+            <h1 >Join Campaign</h1>
+        </div>
+    </div>
+    <div class="section2">
+        <div class="contaniner3">
+        <div class="infoevent1">
+            <form action="https://freshzqzr.github.io/PJ_7Series/thankanspage.html">
+            <label for="A">Name:</label> 
+            <input type="text" id="A" name="name" required>
+            <br><br>
+            <label for="C">E-mail:</label>
+            <input type="email" name="mail" id="C" required> 
+            <br><br>
+            <label for="E">คำบรรยาย:</label>
+            <br>
+            <textarea name="detail" id="E" cols="50" rows="7" style=" height: 30%; width: 90%;"required></textarea>
+            <br>
+            <label for="D">วันที่ทำกิจกรรม:</label>
+            <input type="date" name="Day to do the activities" id="D" required>
+            <br>
+            <label for="img">Select image:</label>
+            <input type="file" id="img" name="img" accept="image/*"required>
+            <br><br>
+            <input type="submit" value="เข้าร่วมCampaign" class="buttonmenu1" id="submitjoinevent" style="color: rgb(255, 255, 255);">
+            </form> 
+        </div>
+        <div class="p03">
+        <h2>**ข้อตกลงเข้าร่วมโครงการ**</h2>
+        <p> 1. ข้อมูลของท่านจะไม่ถูกบันทึกไว้ในฐานข้อมูลกิจกรรม<br>
+            2. การกรอกข้อมูลนั้นเป็นเพียงการทดสอบระบบ <br>
+            3. โพสต์กิจกรรมจะมีเวลาเข้าร่วม 2-3 วัน<br>
+        </p>
+        </div>
+    </div> 
+</div>
+</div>
+
+<!--Footer-->
+
+<div class="section4"> 
+    <div class="container5">
+        <P style="margin: 0; padding-left: 15px">Ref</P>
+        <p style="margin: 0; padding-left: 15px" >www.skooldio.com</p>
+        <p style="margin: 0; padding-left: 15px" >www.w3schools.com</p>
+    </div>
+</div>
+
+
+</body>
+
+</html>
